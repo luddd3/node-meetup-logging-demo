@@ -1,0 +1,15 @@
+{
+  "name": "node-meetup-logging-demo",
+  "version": "1.0.0",
+  "description": "A simple logging/error demo for node.js meetup in Gothenburg 2015-04-07",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main"
+  },
+  "author": "Mathias Lundell",
+  "license": "MIT",
+  "dependencies": {
+    "bunyan": "^1.3.4",
+    "express": "^4.12.3"
+  }
+}
