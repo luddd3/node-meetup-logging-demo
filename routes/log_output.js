@@ -1,3 +1,5 @@
+var logger = require('../logger');
+
 module.exports = function(app) {
 	app.get('/', function(req, res) {
 		var msg = 'GET /';
